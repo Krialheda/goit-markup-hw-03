@@ -17,6 +17,7 @@
 
 .Rale_font {
   font-family: var(--second-font);
+  padding-top: 47px;
 }
 
 .container {
@@ -25,11 +26,13 @@
 }
 
 .padd {
-  padding: 94px 0;
+  padding: 47px 0;
 }
+
 .line_info {
   display: flex;
   align-items: center;
+  padding: 25px 0;
 }
 
 .info_left {
@@ -40,7 +43,7 @@
 .info_right {
   display: flex;
   column-gap: 50px;
-  margin-left: auto;
+  margin-left: 344px;
 }
 
 .under_line {
@@ -48,9 +51,9 @@
 }
 
 .weblogo {
+  font-family: var(--second-font);
   color: var(--hover-color);
   width: 145px;
-  height: 31px;
   font-size: 26px;
   letter-spacing: 0.03px;
   line-height: 1.17;
@@ -92,12 +95,12 @@
 
 .line_hero {
   width: 100%;
-  height: 600px;
   background-color: #2f303a;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 186px 0;
 }
 
 .title {
@@ -127,7 +130,6 @@
   display: flex;
   align-items: center;
   column-gap: 30px;
-  padding: 44px 0;
 }
 
 .princ_skills {
@@ -135,6 +137,7 @@
   font-size: 14px;
   letter-spacing: 0.03px;
   line-height: 1.17;
+  margin: 0;
 }
 
 .Parrafos_skill {
@@ -150,7 +153,7 @@
   letter-spacing: 0.03px;
   line-height: 1.17;
   text-align: center;
-  padding: 55px 0;
+  padding-bottom: 55px;
   margin: auto;
 }
 
@@ -166,12 +169,15 @@
   font-size: 16px;
   letter-spacing: 0.03px;
   line-height: 1.17;
+  text-align: center;
 }
+
 .team_Parrafos {
   color: var(--parrafo-color);
   font-size: 16px;
   letter-spacing: 0.03px;
   line-height: 1.17;
+  text-align: center;
 }
 
 .line_staff {
@@ -186,6 +192,7 @@
   align-items: center;
   column-gap: 8px;
   justify-content: center;
+  padding-top: 59px;
 }
 
 .title_portfolio {
@@ -234,6 +241,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
+  padding: 3px 0 35px 0;
 }
 
 .box_gallery {
@@ -256,15 +264,16 @@
 
 .line_footer {
   width: 100%;
-  height: 252px;
   background-color: #2f303a;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  padding: 59px 0;
 }
 
 .list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
