@@ -53,8 +53,10 @@
 .weblogo {
   font-family: var(--second-font);
   color: var(--hover-color);
-  width: 145px;
+  /* width: 145px; */
   font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
   letter-spacing: 0.03px;
   line-height: 1.17;
   text-decoration: none;
@@ -117,6 +119,7 @@
   font-size: 16px;
   letter-spacing: 0.06px;
   line-height: 1.87;
+  border: none;
   border-radius: 4px;
 }
 
@@ -130,11 +133,13 @@
   display: flex;
   align-items: center;
   column-gap: 30px;
+  padding-top: 48px;
 }
 
 .princ_skills {
   color: var(--subtitulos-color);
   font-size: 14px;
+  font-weight: 700;
   letter-spacing: 0.03px;
   line-height: 1.17;
   margin: 0;
@@ -161,6 +166,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   column-gap: 25px;
 }
 
@@ -183,6 +189,7 @@
 .line_staff {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   column-gap: 30px;
 }
 
@@ -206,6 +213,7 @@
   letter-spacing: 0.03px;
   line-height: 1.62;
   text-align: center;
+  border: none;
   border-radius: 4px;
   padding: 5px 25px;
 }
@@ -225,20 +233,21 @@
 }
 
 .potf_parrafo {
-  color: var(--parrafo-color);
+  background-color: var(--princptittle-color);
   font-size: 16px;
   letter-spacing: 0.03px;
   line-height: 1.87;
   padding: 0 24px;
 }
 
-.img_gallery {
-  background-color: var(--image-backgcolor);
+.border_gallery {
+  border-radius: 0 0 2px 2px;
 }
 
 .list_gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
   padding: 3px 0 35px 0;
@@ -246,13 +255,14 @@
 
 .box_gallery {
   background-color: var(--image-backgcolor);
-  border-radius: 0 0 3px 3px;
   flex-basis: calc((100% - 4 * 30px) / 3);
 }
 
 .foot_info {
   color: var(--princptittle-color);
   text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03px;
   line-height: 1.7;
