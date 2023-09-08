@@ -17,7 +17,8 @@
 
 .Rale_font {
   font-family: var(--second-font);
-  padding-top: 47px;
+  width: 100%;
+  background-color: #2f303a;
 }
 
 .container {
@@ -32,18 +33,17 @@
 .line_info {
   display: flex;
   align-items: center;
-  padding: 25px 0;
 }
 
 .info_left {
   display: flex;
   column-gap: 50px;
+  margin-right: 344px;
 }
 
 .info_right {
   display: flex;
   column-gap: 50px;
-  margin-left: 344px;
 }
 
 .under_line {
@@ -108,9 +108,11 @@
 .title {
   color: var(--princptittle-color);
   font-size: 44px;
+  font-weight: 900px;
   letter-spacing: 0.06px;
   line-height: 1.36;
   text-align: center;
+  padding: 0 462px;
 }
 
 .firstbutton {
@@ -133,7 +135,6 @@
   display: flex;
   align-items: center;
   column-gap: 30px;
-  padding-top: 48px;
 }
 
 .princ_skills {
@@ -143,6 +144,7 @@
   letter-spacing: 0.03px;
   line-height: 1.17;
   margin: 0;
+  padding-top: 48px;
 }
 
 .Parrafos_skill {
@@ -193,13 +195,16 @@
   column-gap: 30px;
 }
 
+.potf_button {
+  padding-top: 59px;
+}
+
 .line_button {
   display: flex;
   flex-direction: row;
   align-items: center;
   column-gap: 8px;
   justify-content: center;
-  padding-top: 59px;
 }
 
 .title_portfolio {
@@ -229,18 +234,20 @@
   font-size: 18px;
   letter-spacing: 0.06;
   line-height: 2;
-  padding: 0 24px;
+  padding: 20px 24px 0 24px;
+  margin: auto;
 }
 
 .potf_parrafo {
-  background-color: var(--princptittle-color);
   font-size: 16px;
   letter-spacing: 0.03px;
   line-height: 1.87;
-  padding: 0 24px;
+  padding: 0 24px 20px 24px;
+  margin: auto;
 }
 
 .border_gallery {
+  background-color: var(--princptittle-color);
   border-radius: 0 0 2px 2px;
 }
 
@@ -272,9 +279,11 @@
   color: var(--hover-color);
 }
 
+.foot_pad {
+  padding-top: 9px;
+}
+
 .line_footer {
-  width: 100%;
-  background-color: #2f303a;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
