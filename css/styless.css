@@ -51,7 +51,6 @@
 .weblogo {
   font-family: var(--second-font);
   color: var(--hover-color);
-  /* width: 145px; */
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -302,6 +301,12 @@ img {
   align-items: flex-start;
   justify-content: center;
   padding: 59px 0;
+}
+
+.line_foot {
+  font-family: var(--body-font);
+  padding: 0;
+  margin: auto;
 }
 
 .list {
